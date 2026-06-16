@@ -19,38 +19,46 @@
 
 <application> a skos:Concept;
            skos:topConceptOf <scheme> ;
-           skos:prefLabel "Softwareanwendung"@de, "Software Application"@en .
+           skos:prefLabel "Softwareanwendung"@de, "Software Application"@en ;
+           skos:definition "A software application is software that can be directly executed by some processing unit."@en .
 
 <assessment> a skos:Concept;
           skos:topConceptOf <scheme> ;
           skos:prefLabel "Lernkontrolle"@de, "Assessment"@en ;
-          skos:scopeNote "unter anderem (Selbst-)Tests"@de .
+          skos:scopeNote "unter anderem (Selbst-)Tests"@de ;
+          skos:definition "The description of an activity or resource used to ensure attainment of a learning objective or learning outcome."@en .
 
 <audio> a skos:Concept;
            skos:topConceptOf <scheme> ;
-           skos:prefLabel "Tonaufnahme"@de, "Audio Recording"@en .
+           skos:prefLabel "Tonaufnahme"@de, "Audio Recording"@en ;
+           skos:definition "A resource which mainly consists of aural Material."@en .
 
 <case_study> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Fallstudie"@de, "Case Study"@en .
+          skos:prefLabel "Fallstudie"@de, "Case Study"@en ;
+          skos:definition "A description of an actual situation, commonly involving a decision, a challenge, an opportunity, a problem or an issue."@en .
 
 <course> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Kurs"@de, "Course"@en .
+          skos:prefLabel "Kurs"@de, "Course"@en ;
+          skos:definition "An educational course comprises one or more educational events and/or creative works which aims to build knowledge, competence or ability of learners."@en .
 
 <data> a skos:Concept;
           skos:topConceptOf <scheme> ;
           skos:prefLabel "Daten"@de, "Data"@en ;
-          skos:scopeNote "unter anderem Roh- oder Beispieldaten"@de, "amongst others raw and example data"@en .
+          skos:scopeNote "unter anderem Roh- oder Beispieldaten"@de, "amongst others raw and example data"@en ;
+          skos:definition "Any form of digital representation, e.g. facts, measurements, recordings, records, or observations about the world. Data may be in any format or medium taking the form of writings, notes, numbers, symbols, text, images, films, video, sound recordings, pictorial reproductions, drawings, designs or other graphical representations, procedural manuals, forms, diagrams, work flow charts, equipment descriptions, data files, data processing algorithms, or statistical records."@en .
 
 <diagram> a skos:Concept;
           skos:topConceptOf <scheme> ;
           skos:prefLabel "Diagramm"@de, "Diagram"@en ;
-          skos:altLabel "Grafik"@de .
+          skos:altLabel "Grafik"@de ;
+          skos:definition "An image that illustrates the structure and/or its component substructures and/or relations with other structures by using lines, shapes, text, and other symbols."@en .
 
 <drill_and_practice> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Übung"@de, "Drill and Practice"@en .
+          skos:prefLabel "Übung"@de, "Drill and Practice"@en ;
+          skos:definition "Exercise(s) or activities for the (repetitive) training of a skill or knowledge."@en .
 
 <educational_game> a skos:Concept;
           skos:topConceptOf <scheme> ;
@@ -58,21 +66,25 @@
 
 <experiment> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Experiment"@de, "Experiment"@en .
+          skos:prefLabel "Experiment"@de, "Experiment"@en ;
+          skos:definition "A scientific procedure undertaken to make a discovery, test a hypothesis, or demonstrate a known fact."@en .
 
 <image> a skos:Concept;
           skos:topConceptOf <scheme> ;
           skos:prefLabel "Abbildung"@de, "Image"@en ;
-          skos:scopeNote "Fotos und sonstige Bilder"@de, "photos and other images"@en .
+          skos:scopeNote "Fotos und sonstige Bilder"@de, "photos and other images"@en ;
+          skos:definition "A resource which mainly consists of (a) still image(s)."@en .
 
 <index> a skos:Concept;
           skos:topConceptOf <scheme> ;
           skos:prefLabel "Nachschlagewerk"@de, "Reference Work"@en ;
-          skos:scopeNote "zum Beispiel Glossar, Enzyklopädie, Lexikon"@de, "e.g. glossary, encyclopedia, dictionary"@en .
+          skos:scopeNote "zum Beispiel Glossar, Enzyklopädie, Lexikon"@de, "e.g. glossary, encyclopedia, dictionary"@en ;
+          skos:definition "Material to be consulted for authoritative factual information, such as a dictionary, encyclopaedia, entry, handbook, standard, or field guide, or an informative web page such as an institutional, research group or project home page."@en .
 
 <lesson_plan> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Unterrichtsplanung"@de, "Lesson Plan"@en .
+          skos:prefLabel "Unterrichtsplanung"@de, "Lesson Plan"@en ;
+          skos:definition "Detailed descriptions or outlines for a pedagogical session. Usually includes objective(s), instructional components or methods, and assessment."@en .
 
 <map> a skos:Concept;
           skos:topConceptOf <scheme> ;
@@ -80,51 +92,62 @@
 
 <portal> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Portal"@de, "Web Portal"@en .
+          skos:prefLabel "Portal"@de, "Web Portal"@en ;
+          skos:definition "A website that integrates applications, processes and services."@en .
 
 <questionnaire> a skos:Concept;
           skos:topConceptOf <scheme> ;
           skos:prefLabel "Fragebogen"@de, "Questionnaire"@en ;
-          skos:scopeNote "auch Rechercheauftrag und WebQuest"@de, "also research assignment and WebQuest"@en .
+          skos:scopeNote "auch Rechercheauftrag und WebQuest"@de, "also research assignment and WebQuest"@en ;
+          skos:definition "A set of questions with a choice of answers, devised for the purposes of a survey or statistical study."@en .
 
 <script> a skos:Concept;
           skos:topConceptOf <scheme> ;
           skos:prefLabel "Skript"@de, "Script"@en ;
-          skos:scopeNote "zum Beispiel Vorlesungsskript"@de, "for example lecture notes"@en .
+          skos:scopeNote "zum Beispiel Vorlesungsskript"@de, "for example lecture notes"@en ;
+          skos:definition "A script or scriptum is a textbook or study materials that include the content of a lecture series or course."@en .
 
 <simulation> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Simulation"@de, "Simulation"@en .
+          skos:prefLabel "Simulation"@de, "Simulation"@en ;
+          skos:definition "The reproducing of characteristics, conditions, and/or systems, often by the use of a model or a representation."@en .
 
 <slide> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Präsentation"@de, "Presentation"@en .
+          skos:prefLabel "Präsentation"@de, "Presentation"@en ;
+          skos:definition "A resource which mainly consists of slides."@en .
 
 <text> a skos:Concept;
           skos:topConceptOf <scheme> ;
           skos:prefLabel "Textdokument"@de, "Text"@en ;
-          skos:scopeNote "zum Beispiel Artikel, Aufsatz, Abhandlung"@de, "for example article, essay"@en .
+          skos:scopeNote "zum Beispiel Artikel, Aufsatz, Abhandlung"@de, "for example article, essay"@en ;
+          skos:definition "A resource which mainly consists of written or writing materials."@en .
 
 <textbook> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Lehrbuch"@de, "Textbook"@en .
+          skos:prefLabel "Lehrbuch"@de, "Textbook"@en ;
+          skos:definition "Book used as standard work for the formal study of a particular subject."@en .
 
 <video> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Video"@de, "Video"@en .
+          skos:prefLabel "Video"@de, "Video"@en ;
+          skos:definition "A resource which mainly consists of moving images."@en .
 
 <web_page> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Webseite"@de, "Web Page"@en .
+          skos:prefLabel "Webseite"@de, "Web Page"@en ;
+          skos:definition "A web page is an online document available (at least initially) on the world wide web."@en .
 
 <worksheet> a skos:Concept;
           skos:topConceptOf <scheme> ;
           skos:prefLabel "Arbeitsmaterial"@de, "Worksheet"@en ;
-          skos:scopeNote "zum Beispiel Arbeitsblatt"@de .
+          skos:scopeNote "zum Beispiel Arbeitsblatt"@de ;
+          skos:definition "A sheet containing exercises or tasks to be completed for the purpose of imparting knowledge, attitudes, or skills."@en .
 
 <other> a skos:Concept;
           skos:topConceptOf <scheme> ;
-          skos:prefLabel "Sonstiges"@de, "Other"@en .
+          skos:prefLabel "Sonstiges"@de, "Other"@en ;
+          skos:definition "A learning resource type that is not covered by the other listed categories."@en .
 
 <zapperlott> a skos:Concept;
            skos:topConceptOf <scheme> ;
